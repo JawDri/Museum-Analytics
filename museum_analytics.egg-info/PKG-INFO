@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: museum-analytics
+Version: 0.1.0
+Summary: Museum visitor analytics and city population correlation analysis
+Author: Jawher
+Requires-Python: >=3.8
+Requires-Dist: requests>=2.31.0
+Requires-Dist: pandas>=2.1.4
+Requires-Dist: numpy>=1.24.3
+Requires-Dist: scikit-learn>=1.3.2
+Requires-Dist: matplotlib>=3.8.2
+Requires-Dist: seaborn>=0.13.0
+Requires-Dist: jupyter>=1.0.0
+Requires-Dist: beautifulsoup4>=4.12.2
+Requires-Dist: lxml>=4.9.3
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

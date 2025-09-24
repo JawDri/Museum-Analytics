@@ -1,0 +1,22 @@
+services:
+  museum-analytics:
+    build: .
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./museum_analytics:/workspace/museum_analytics
+      - ./data:/workspace/data
+      - ./models:/workspace/models
+      - ./plots:/workspace/plots
+    environment:
+      - PYTHONPATH=/workspace
+    command: >
+      bash -lc "
+        set -e
+        cd /workspace &&
+        echo 'Running data extraction and analysis...' &&
+        python run_pipeline.py || echo 'Pipeline finished with a non-zero exit (continuing)' &&
+        echo 'Starting Museum Analytics Jupyter Lab...' &&
+        echo 'Access the notebook at: http://localhost:8888' &&
+        jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
+      "

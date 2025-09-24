@@ -1,0 +1,9 @@
+requests==2.31.0
+pandas>=2.2
+numpy>=2.0
+scikit-learn>=1.5.2
+matplotlib>=3.9.0    # 3.9+ works with NumPy 2.x
+seaborn==0.13.0
+jupyter==1.0.0
+beautifulsoup4==4.12.2
+lxml>=5.3.0

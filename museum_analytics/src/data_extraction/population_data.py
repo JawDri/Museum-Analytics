@@ -538,7 +538,7 @@ class PopulationDataExtractor:
         
         return population_data
     
-    def save_to_csv(self, population_data: Dict[str, int], filename: str = "city_population.csv"):
+    def save_to_csv(self, population_data: Dict[str, int], filename: str = "./data/city_population.csv"):
         """Save population data to CSV file."""
         if not population_data:
             logger.warning("No population data to save")
@@ -559,7 +559,7 @@ def main():
     population_data = extractor.get_city_population_data(sample_cities)
     
     if population_data:
-        df = extractor.save_to_csv(population_data, "city_population.csv")
+        df = extractor.save_to_csv(population_data, "./data/city_population.csv")
         print(f"Successfully extracted population data for {len(population_data)} cities")
         print("\nSample data:")
         print(df.head())

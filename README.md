@@ -43,6 +43,9 @@ museum_analytics/
 ### Option 1: Docker Compose (Recommended)
 
 ```bash
+# Clone the GitHub repository
+git clone https://github.com/JawDri/Museum-Analytics.git
+
 # Navigate to the project
 cd museum-analytics
 

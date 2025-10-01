@@ -26,7 +26,7 @@ USE_LOG_TRANSFORM = True       # fit on log1p(pop), log1p(visitors) and invert
 class MuseumRegressionModel:
     """Linear regression model for museum visitor and city population correlation."""
     
-    def __init__(self, model_path: str = "museum_regression_model.pkl"):
+    def __init__(self, model_path: str = "./models/museum_regression_model.pkl"):
         self.model = LinearRegression()
         self.scaler = StandardScaler()
         self.model_path = model_path
@@ -356,7 +356,7 @@ def main():
     model = MuseumRegressionModel()
     
     # Check if harmonized data exists
-    data_file = "harmonized_museum_data.csv"
+    data_file = "./data/harmonized_museum_data.csv"
     if not Path(data_file).exists():
         print("Please run the data harmonization script first to generate input data")
         return

@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 class DataHarmonizer:
     """Harmonizes museum and population data into a unified dataset."""
     
-    def __init__(self, db_path: str = "museum_analytics.db"):
+    def __init__(self, db_path: str = "./data/museum_analytics.db"):
         self.db_path = db_path
         self.conn = None
     
@@ -209,7 +209,7 @@ class DataHarmonizer:
         self.save_to_database(harmonized_df, 'harmonized_data')
         
         # Save harmonized data to CSV
-        output_file = "harmonized_museum_data.csv"
+        output_file = "./data/harmonized_museum_data.csv"
         harmonized_df.to_csv(output_file, index=False)
         logger.info(f"Saved harmonized data to {output_file}")
         
@@ -260,8 +260,8 @@ def main():
     harmonizer = DataHarmonizer()
     
     # Check if input files exist
-    museum_file = "museum_data.csv"
-    population_file = "city_population.csv"
+    museum_file = "./data/museum_data.csv"
+    population_file = "./data/city_population.csv"
     
     if not Path(museum_file).exists() or not Path(population_file).exists():
         print("Please run the data extraction scripts first to generate input files")

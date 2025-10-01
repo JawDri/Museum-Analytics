@@ -242,7 +242,7 @@ class WikipediaMuseumScraper:
             return int(year_match.group(1))
         return None
     
-    def save_to_csv(self, museums: List[Dict], filename: str = "museum_data.csv"):
+    def save_to_csv(self, museums: List[Dict], filename: str = "./data/museum_data.csv"):
         """Save museum data to CSV file."""
         if not museums:
             logger.warning("No museum data to save")
@@ -260,7 +260,7 @@ def main():
     museums = scraper.extract_museum_data()
     
     if museums:
-        df = scraper.save_to_csv(museums, "museum_data.csv")
+        df = scraper.save_to_csv(museums, "./data/museum_data.csv")
         print(f"Successfully extracted {len(museums)} museums")
         print("\nSample data:")
         print(df.head())

@@ -208,9 +208,16 @@ class DataHarmonizer:
         self.save_to_database(population_df, 'cities')
         self.save_to_database(harmonized_df, 'harmonized_data')
         
-        # Save harmonized data to CSV
-        output_file = "./data/harmonized_museum_data.csv"
-        harmonized_df.to_csv(output_file, index=False)
+        
+        try:
+            # Save harmonized data to CSV
+            output_file = "./data/harmonized_museum_data.csv"
+            harmonized_df.to_csv(output_file, index=False)
+        except:
+            # Save harmonized data to CSV
+            output_file = "/workspace/data/harmonized_museum_data.csv"
+            harmonized_df.to_csv(output_file, index=False)
+            
         logger.info(f"Saved harmonized data to {output_file}")
         
         # Close database connection

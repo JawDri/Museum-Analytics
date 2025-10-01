@@ -1,11 +1,54 @@
-museum_name,city,country,annual_visitors,year
-Louvre,Paris,France,9600000,2023
-National Museum of China,Beijing,China,7500000,2023
-Metropolitan Museum of Art,New York,United States,6200000,2023
-British Museum,London,United Kingdom,5800000,2023
-Tate Modern,London,United Kingdom,5700000,2023
-National Gallery,London,United Kingdom,5200000,2023
-Vatican Museums,Rome,Italy,5000000,2023
-Hermitage Museum,Saint Petersburg,Russia,4200000,2023
-Prado Museum,Madrid,Spain,3500000,2023
-Uffizi Gallery,Florence,Italy,3200000,2023
+museum_name,city,annual_visitors,country,year
+Louvre,Paris,8700000,France,2024.0
+National Museum of China,Beijing,6956800,China,2024.0
+Vatican Museums,"Vatican City,Rome",6825436,Vatican City,2024.0
+British Museum,London,6479952,United Kingdom,2024.0
+"Natural History Museum, South Kensington",London,6301972,United Kingdom,2024.0
+Metropolitan Museum of Art,New York City,5727258,United States,2024.0
+American Museum of Natural History,New York City,5400000,United States,2024.0
+China Science and Technology Museum,Beijing,5315000,China,2023.0
+Nanjing Museum,Nanjing,5006800,China,2023.0
+Suzhou Museum,Suzhou,4852000,China,2023.0
+Shanghai Museum East,Shanghai,4230000,China,2024.0
+Tate Modern,London,4603025,United Kingdom,2024.0
+National Museum of Natural History,"Washington, D.C.",4400000,United States,2023.0
+Hubei Provincial Museum,Wuhan,4356943,China,2023.0
+National Museum of Korea,Seoul,3780000,South Korea,2024.0
+National Gallery of Art,"Washington, D.C.",3936543,United States,2024.0
+Musée National d'Histoire Naturelle,Paris,3800000,France,2023.0
+Musée d'Orsay,Paris,3751000,France,2024.0
+National Museum of Anthropology,Mexico City,3700000,Mexico,2024.0
+State Hermitage Museum,Saint Petersburg,3563590,Russia,2024.0
+Victoria and Albert Museum,"London, South Kensington",3525700,United Kingdom,2024.0
+Prado Museum,Madrid,3457057,Spain,2024.0
+Mevlana Museum,Konya,3352505,Turkey,2022.0
+Centre Pompidou,Paris,3204369,France,2024.0
+National Gallery,London,3203451,United Kingdom,2024.0
+Chengdu Museum,Chengdu,3134129,China,2023.0
+Palace and Garden of Sa'dabad,Tehran,3121000,Iran,2022.0
+National Air and Space Museum,"Washington, D.C.",3100000,United States,2024.0
+Galleria degli Uffizi,Florence,2908828,Italy,2024.0
+State Russian Museum,Saint Petersburg,2900000,Russia,2023.0
+National Museum of Natural Science,Taichung,2854455,Taiwan,2024.0
+Museum of Modern Art,New York City,2839509,United States,2023.0
+London Science Museum,London,2827242,United Kingdom,2024.0
+M+,Hong Kong,2610000,Hong Kong,2024.0
+Changzhou Museum,Changzhou,2761514,China,2023.0
+National Museum of Marine Science and Technology,Keelung,2726000,Taiwan,2023.0
+Zhejiang Museum of Natural History,Hangzhou,2715813,China,2023.0
+Rijksmuseum,Amsterdam,2702824,Netherlands,2023.0
+National Museum of Nature and Science,Tokyo,2694021,Japan,2023.0
+Shenzhen Museum,Shenzhen,2601625,China,2023.0
+Guangdong Museum,Guangzhou,2461600,China,2023.0
+Museo Nacional de Historia,Mexico City,2456825,Mexico,2023.0
+Shanxi Museum,Taiyuan,2360988,China,2023.0
+National Museum of Scotland,Edinburgh,2314974,United Kingdom,2024.0
+Three Gorges Museum,Chongqing,2279105,China,2023.0
+Royal Museums Greenwich,London,2255753,United Kingdom,
+Golestan Palace,Tehran,2106603,Iran,2022.0
+Smithsonian Museum of American History,"Washington, D.C.",2100000,United States,2024.0
+State Tretyakov Gallery,Moscow,2100000,Russia,2023.0
+Topography of Terror,Berlin,2100000,Germany,2022.0
+Art Gallery of NSW,Sydney,2032098,Australia,
+Galleria dell'Accademia,Florence,2013914,Italy,2023.0
+National Museum in Warsaw,Warsaw,2000000,Poland,2022.0

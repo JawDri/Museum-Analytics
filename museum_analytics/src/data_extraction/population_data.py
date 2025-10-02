@@ -18,7 +18,7 @@ class PopulationDataExtractor:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'Museum Analytics Bot 1.0 (Educational Purpose)'
+            'User-Agent': 'Museum Analytics'
         })
         # Minimal country name -> Wikidata QID map (extend as needed)
         self.country_qids: Dict[str, str] = {

@@ -22,7 +22,7 @@ class WikipediaMuseumScraper:
         self.museum_list_url = "https://en.wikipedia.org/wiki/List_of_most_visited_museums"
         self.session = requests.Session()
         self.session.headers.update({
-            'User-Agent': 'Museum Analytics Bot 1.0 (Educational Purpose)'
+            'User-Agent': 'Museum Analytics WS'
         })
     
     def get_page_content(self, url: str) -> Optional[BeautifulSoup]:
